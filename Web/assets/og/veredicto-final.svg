@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350">
+  <defs>
+    <style>
+      .verdict-title{font-family:Inter, system-ui, sans-serif;font-size:24px;font-weight:700}
+      .verdict-subtitle{font-family:Inter, system-ui, sans-serif;font-size:18px;font-weight:600}
+    </style>
+  </defs>
+  <rect width="1200" height="350" fill="#f0f9ff"/>
+  
+  <!-- Left: Opus Clip (Speed) -->
+  <g>
+    <!-- Icon background -->
+    <circle cx="300" cy="120" r="100" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="3"/>
+    
+    <!-- Stopwatch/Speed icon -->
+    <circle cx="300" cy="120" r="45" fill="none" stroke="#0ea5e9" stroke-width="3"/>
+    <line x1="300" y1="80" x2="300" y2="40" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round"/>
+    <line x1="300" y1="120" x2="340" y2="120" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="300" cy="120" r="8" fill="#0ea5e9"/>
+    
+    <!-- Speed lines -->
+    <line x1="250" y1="100" x2="200" y2="80" stroke="#0ea5e9" stroke-width="2" opacity="0.7"/>
+    <line x1="250" y1="140" x2="200" y2="160" stroke="#0ea5e9" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Text -->
+    <text x="300" y="265" text-anchor="middle" class="verdict-title" fill="#0ea5e9">Opus Clip</text>
+    <text x="300" y="295" text-anchor="middle" class="verdict-subtitle" fill="#0c4a6e">Elige si valoras la</text>
+    <text x="300" y="325" text-anchor="middle" style="font-family:Inter, system-ui, sans-serif;font-size:22px;font-weight:900;fill:#0ea5e9">VELOCIDAD</text>
+  </g>
+  
+  <!-- Right: Descript (Control) -->
+  <g>
+    <!-- Icon background -->
+    <circle cx="900" cy="120" r="100" fill="#f5f3ff" stroke="#a855f7" stroke-width="3"/>
+    
+    <!-- Precision tools / Wrench -->
+    <rect x="870" y="90" width="60" height="60" rx="8" fill="none" stroke="#a855f7" stroke-width="3"/>
+    <circle cx="885" cy="105" r="6" fill="#a855f7"/>
+    <circle cx="915" cy="105" r="6" fill="#a855f7"/>
+    <circle cx="885" cy="135" r="6" fill="#a855f7"/>
+    <circle cx="915" cy="135" r="6" fill="#a855f7"/>
+    
+    <!-- Gear detail -->
+    <circle cx="900" cy="120" r="20" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <path d="M 885 120 L 915 120 M 900 105 L 900 135" stroke="#a855f7" stroke-width="2"/>
+    
+    <!-- Text -->
+    <text x="900" y="265" text-anchor="middle" class="verdict-title" fill="#a855f7">Descript</text>
+    <text x="900" y="295" text-anchor="middle" class="verdict-subtitle" fill="#581c87">Elige si valoras el</text>
+    <text x="900" y="325" text-anchor="middle" style="font-family:Inter, system-ui, sans-serif;font-size:22px;font-weight:900;fill:#a855f7">CONTROL</text>
+  </g>
+  
+  <!-- Center divider line -->
+  <line x1="600" y1="0" x2="600" y2="350" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+</svg>
