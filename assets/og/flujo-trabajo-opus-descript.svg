@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      .workflow-title{font-family:Inter, system-ui, sans-serif;font-size:28px;font-weight:700;fill:#1f2937}
+      .arrow{fill:#6366f1;stroke:#6366f1;stroke-width:2}
+      .step-label{font-family:Inter, system-ui, sans-serif;font-size:16px;font-weight:600;fill:#374151;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1200" height="400" fill="#f9fafb"/>
+  
+  <!-- Left: Opus Clip Workflow -->
+  <text x="200" y="40" class="workflow-title">Flujo: Opus Clip</text>
+  
+  <!-- Step 1: Video -->
+  <rect x="80" y="80" width="80" height="60" rx="8" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="120" y="110" style="font-family:Inter, system-ui, sans-serif;font-size:32px;text-anchor:middle">🎬</text>
+  <text x="120" y="155" class="step-label">Video Largo</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 170 110 L 220 110" class="arrow" fill="none" stroke-linecap="round"/>
+  <polygon points="220,110 210,105 210,115" class="arrow"/>
+  
+  <!-- Step 2: AI Magic -->
+  <rect x="230" y="80" width="80" height="60" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="270" y="110" style="font-size:32px;text-anchor:middle">✨</text>
+  <text x="270" y="155" class="step-label">IA Automática</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 320 110 L 370 110" class="arrow" fill="none" stroke-linecap="round"/>
+  <polygon points="370,110 360,105 360,115" class="arrow"/>
+  
+  <!-- Step 3: Clips -->
+  <rect x="380" y="80" width="80" height="60" rx="8" fill="#dbeafe" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="420" y="110" style="font-size:32px;text-anchor:middle">📱</text>
+  <text x="420" y="155" class="step-label">Clips Listos</text>
+  
+  <!-- Tiempo -->
+  <text x="270" y="220" style="font-family:Inter, system-ui, sans-serif;font-size:18px;font-weight:700;fill:#10b981;text-anchor:center">⏱️ ~5-10 minutos</text>
+  
+  <!-- Right: Descript Workflow -->
+  <text x="800" y="40" class="workflow-title">Flujo: Descript</text>
+  
+  <!-- Step 1: Video -->
+  <rect x="680" y="80" width="80" height="60" rx="8" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="720" y="110" style="font-size:32px;text-anchor:middle">🎬</text>
+  <text x="720" y="155" class="step-label">Video Largo</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 770 110 L 820 110" class="arrow" fill="none" stroke-linecap="round"/>
+  <polygon points="820,110 810,105 810,115" class="arrow"/>
+  
+  <!-- Step 2: Transcribe -->
+  <rect x="830" y="80" width="80" height="60" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="870" y="110" style="font-size:32px;text-anchor:middle">📝</text>
+  <text x="870" y="155" class="step-label">Transcripción</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 920 110 L 970 110" class="arrow" fill="none" stroke-linecap="round"/>
+  <polygon points="970,110 960,105 960,115" class="arrow"/>
+  
+  <!-- Step 3: Edit -->
+  <rect x="980" y="80" width="80" height="60" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="2"/>
+  <text x="1020" y="110" style="font-size:32px;text-anchor:middle">✏️</text>
+  <text x="1020" y="155" class="step-label">Editar Texto</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 1070 110 L 1080 110" class="arrow" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tiempo -->
+  <text x="900" y="220" style="font-family:Inter, system-ui, sans-serif;font-size:18px;font-weight:700;fill:#f59e0b;text-anchor:center">⏱️ ~20-30 minutos</text>
+  
+  <!-- Bottom info -->
+  <rect x="50" y="280" width="1100" height="100" rx="12" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+  <text x="600" y="310" style="font-family:Inter, system-ui, sans-serif;font-size:16px;font-weight:700;fill:#92400e;text-anchor:center">Opus Clip: "Configurar y olvidar" — Automatización total</text>
+  <text x="600" y="335" style="font-family:Inter, system-ui, sans-serif;font-size:16px;font-weight:700;fill:#92400e;text-anchor:center">Descript: "Más control, más pasos" — Resultado pulido</text>
+  <text x="600" y="360" style="font-family:Inter, system-ui, sans-serif;font-size:13px;fill:#b45309;text-anchor:center">Elige según tu prioridad: velocidad vs. control total</text>
+</svg>

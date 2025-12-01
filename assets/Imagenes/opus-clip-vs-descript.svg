@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#eef2ff" />
+      <stop offset="1" stop-color="#fef3c7" />
+    </linearGradient>
+    <style>
+      .bg{fill:url(#g)}
+      .left{fill:#0ea5e9;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight:700}
+      .right{fill:#7c3aed;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight:700}
+      .vs{fill:#111827;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight:900}
+      .title{fill:#0f172a;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight:800}
+      .sub{fill:#374151;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight:600}
+      .badge{fill:#ffffff; font-size:28px}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="630" rx="24"/>
+
+  <!-- Left block (Opus Clip) -->
+  <rect x="40" y="60" width="520" height="420" rx="16" fill="#e6f6ff" stroke="#c7e9ff" stroke-width="2"/>
+  <text x="300" y="140" text-anchor="middle" class="left" font-size="44">Opus Clip</text>
+  <g transform="translate(300,180)">
+    <circle cx="-140" cy="30" r="40" fill="#0ea5e9" />
+    <text x="-140" y="36" text-anchor="middle" font-size="22" fill="#fff">OC</text>
+    <text x="-20" y="24" font-size="18" class="sub" text-anchor="start">Momentos virales</text>
+    <text x="-20" y="54" font-size="14" class="sub" text-anchor="start">Auto-reframe · Subtítulos</text>
+  </g>
+
+  <!-- Right block (Descript) -->
+  <rect x="620" y="60" width="520" height="420" rx="16" fill="#f5f3ff" stroke="#e9d5ff" stroke-width="2"/>
+  <text x="880" y="140" text-anchor="middle" class="right" font-size="44">Descript</text>
+  <g transform="translate(880,180)">
+    <rect x="-160" y="-10" width="80" height="80" rx="12" fill="#7c3aed" />
+    <text x="-120" y="36" font-size="22" fill="#fff">D</text>
+    <text x="-20" y="24" font-size="18" class="sub" text-anchor="start">Edición por texto</text>
+    <text x="-20" y="54" font-size="14" class="sub" text-anchor="start">Studio Sound · Colaboración</text>
+  </g>
+
+  <!-- VS circle -->
+  <circle cx="600" cy="260" r="66" fill="#111827" opacity="0.95" />
+  <text x="600" y="273" text-anchor="middle" class="vs" fill="#fff" font-size="36">VS</text>
+
+  <!-- Title overlay -->
+  <text x="600" y="380" text-anchor="middle" class="title" font-size="44">Opus Clip vs Descript: ¿Cuál es Mejor para Clips Virales?</text>
+  <text x="600" y="420" text-anchor="middle" class="sub" font-size="20">Herramientas de IA · Marketing de Contenidos · Reseñas</text>
+</svg>

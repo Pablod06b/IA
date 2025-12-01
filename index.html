@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Creativa – Blog para Creadores Digitales</title>
+    
+    <!-- SEO Básico y Metadescripción -->
+    <meta name="description" content="Descubre las mejores herramientas de IA para creadores de contenido, guías, comparativas y estrategias para ganar tiempo, dinero y creatividad con inteligencia artificial.">
+    <meta name="keywords" content="inteligencia artificial, creadores de contenido, herramientas IA, marketing digital, automatización">
+
+    <!-- SEO Open Graph para Redes Sociales -->
+    <meta property="og:title" content="IA Creativa – Blog para Creadores Digitales">
+    <meta property="og:description" content="Guías, herramientas y estrategias para creadores que usan IA.">
+    <meta property="og:image" content="https://placehold.co/1200x630/6366f1/ffffff?text=IA+CREATIVA">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon corregido -->
+    <link rel="icon" href="https://placehold.co/16x16/6366f1/ffffff?text=AI" type="image/x-icon">
+    
+    <!-- Scripts y Estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header con botón de hamburguesa para móvil -->
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="content-container py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-black flex items-center">
+                <span class="accent-color">IA</span><span class="text-gray-800">Creativa</span>
+                <span class="text-xs ml-2 text-gray-500 font-normal hidden sm:inline">| Transforma tu creatividad con IA</span>
+            </a>
+            
+            <!-- Botón de Menú Hamburguesa (Móvil) -->
+            <button id="menu-button" class="sm:hidden p-2 text-gray-600 hover:accent-color">
+                <svg id="icon-menu" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <!-- Menú de Navegación (Desktop y Móvil colapsado) -->
+            <nav id="main-nav" class="hidden sm:flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 absolute sm:static top-16 left-0 right-0 bg-white sm:bg-transparent p-4 sm:p-0 shadow-lg sm:shadow-none border-t sm:border-none z-20">
+                <a href="#home" class="text-gray-600 hover:accent-color font-medium block">Home</a>
+                <a href="#blog" class="text-gray-600 hover:accent-color font-medium block">Blog</a>
+                <a href="#about" class="text-gray-600 hover:accent-color font-medium block">Sobre Mí</a>
+                <a href="#contact" class="px-3 py-1 bg-indigo-50 accent-color rounded-full font-semibold text-sm hover:bg-indigo-100 transition-colors inline-block sm:inline">Newsletter</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="py-8 sm:py-12">
+        
+        <!-- Vista Home -->
+        <section id="home-view" class="view-content content-container">
+            <div class="bg-white p-6 md:p-12 rounded-2xl shadow-lg mb-12 border border-indigo-100">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-3/5">
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+                            Descubre las <span class="accent-color">Mejores Herramientas de IA</span> para Creadores de Contenido
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-8">
+                            Guías, comparativas y estrategias para ganar tiempo, dinero y creatividad con inteligencia artificial.
+                        </p>
+                        <a href="#blog" class="inline-block px-8 py-3 text-lg font-bold text-white accent-bg rounded-full shadow-lg hover:accent-bg-hover transition duration-300">
+                            Explorar Herramientas →
+                        </a>
+                    </div>
+                    <div class="md:w-2/5 mt-8 md:mt-0 md:pl-8">
+                        <img src="https://placehold.co/400x300/e0e7ff/6366f1?text=[Image+of+AI+Creativity]" alt="Ilustración de IA y creatividad digital" class="w-full h-auto rounded-xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Últimos Artículos Publicados</h2>
+            <div id="latest-articles" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <!-- Se rellena con JS -->
+            </div>
+
+            <div class="featured-block bg-indigo-50/50 p-6 rounded-xl border border-indigo-200 mb-12 text-center">
+                <p class="text-sm font-semibold text-indigo-600 mb-2">🔥 Artículo Popular | Bloque de Anuncio</p>
+                <a href="#article/chatgpt-vs-gemini-vs-claude" class="text-2xl font-bold text-gray-800 hover:accent-color transition-colors">
+                    ChatGPT vs Gemini vs Claude 3: Comparativa Definitiva (¡Actualizado!)
+                </a>
+                <p class="text-gray-600 mt-2">Este bloque simula un anuncio de AdSense o un artículo destacado con alto rendimiento.</p>
+                <div class="mt-4 p-4 bg-white border border-dashed border-gray-300 text-gray-500 text-sm">
+                    [Bloque de Anuncio AdSense 728x90 o Contenido Patrocinado]
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Guías Esenciales para Creadores</h2>
+            <div id="recommended-guides" class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <!-- Se rellena con JS -->
+            </div>
+
+            <div class="bg-gray-800 text-white p-8 rounded-2xl text-center shadow-xl">
+                <h3 class="text-3xl font-bold mb-3">Únete a la Vanguardia de la IA</h3>
+                <p class="text-xl mb-6 text-gray-300">Recibe las últimas tendencias, herramientas secretas y estrategias de monetización en IA para creadores.</p>
+                <a href="#contact" class="inline-block px-8 py-3 text-lg font-bold text-gray-800 bg-white rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+                    Suscríbete Gratis Ahora →
+                </a>
+            </div>
+        </section>
+        
+        <!-- Vista de Artículo -->
+        <section id="article-view" class="view-content hidden content-container">
+             <div class="flex flex-col lg:flex-row gap-10">
+                <div id="article-main" class="lg:w-2/3 bg-white p-6 md:p-10 rounded-xl shadow-md">
+                    <!-- Se rellena con JS -->
+                </div>
+
+                <aside class="lg:w-1/3 space-y-8">
+                     <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-200 text-center">
+                        <h4 class="text-xl font-bold mb-3 accent-color">Herramienta del Mes</h4>
+                        <p class="text-gray-700 mb-4">La IA #1 para optimizar tus flujos de trabajo de creación de contenido.</p>
+                        <a href="#" class="inline-block px-5 py-2 text-sm font-bold text-white accent-bg rounded-full hover:accent-bg-hover transition duration-300">
+                            ¡Prueba Jasper AI Gratis! (Enlace Afiliado)
+                        </a>
+                    </div>
+                    <div class="p-4 bg-white border border-dashed border-gray-300 text-gray-500 text-center text-sm rounded-xl shadow-sm">
+                        [Bloque de Anuncio AdSense 300x250]
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <h4 class="text-xl font-bold mb-4 border-b pb-2">Artículos Relacionados</h4>
+                        <ul class="space-y-3">
+                            <li class="text-gray-700 hover:accent-color text-sm"><a href="#article/marketing-sin-rostro-anonimo">Marketing Sin Rostro: Cómo Ganar Dinero Siendo Anónimo</a></li>
+                            <li class="text-gray-700 hover:accent-color text-sm"><a href="#article/7-herramientas-youtubers-ia">7 Herramientas de IA para YouTubers (Ahorra 10h/semana)</a></li>
+                            <li class="text-gray-700 hover:accent-color text-sm"><a href="#article/5-formas-ganar-dinero-ia">5 Formas de Ganar Dinero con IA (Siendo Creador)</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Vista Sobre Mí -->
+        <section id="about-view" class="view-content hidden content-container bg-white p-8 md:p-12 rounded-2xl shadow-xl">
+            <h1 class="text-4xl font-extrabold mb-6 accent-color">Sobre Mí: Pablo Domínguez Barbero</h1>
+            <div class="flex flex-col md:flex-row items-start gap-8">
+                <div class="md:w-1/3 flex flex-col items-center">
+                    <img src="https://placehold.co/200x200/6366f1/ffffff?text=Avatar" alt="Foto profesional de Pablo Domínguez Barbero" class="w-48 h-48 object-cover rounded-full shadow-lg mb-4 border-4 border-indigo-200">
+                    <p class="text-xl font-semibold text-gray-800">Creador Digital y Apasionado por la IA</p>
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-2xl font-bold mb-3 text-gray-800">Nuestra Misión en IA Creativa</h2>
+                    <p class="text-lg mb-4 text-gray-700">
+                        IA Creativa nació de una frustración: la complejidad de las nuevas herramientas de inteligencia artificial.
+                        Mi objetivo es simple: <span class="font-bold accent-color">ayudarte a convertir la inteligencia artificial en una herramienta práctica para tu creatividad y tus proyectos digitales.</span>
+                    </p>
+                    <p class="mb-4 text-gray-600">
+                        Aquí no solo compartimos reseñas, sino estrategias probadas para que tú, como creador o emprendedor, puedas ahorrar tiempo, optimizar tus recursos y, lo más importante, generar ingresos escalables. Dejar de ser reactivo a la tecnología y empezar a usarla como un superpoder.
+                    </p>
+                    <h3 class="text-2xl font-bold mt-8 mb-4 border-t pt-4 text-gray-800">Mis 3 Herramientas Favoritas (¡Imprescindibles!)</h3>
+                    <ul class="space-y-3 list-disc list-inside text-gray-700">
+                        <li><span class="font-semibold">Gemini Advanced:</span> El cerebro detrás de las ideas. Su capacidad para análisis de datos es inigualable.</li>
+                        <li><span class="font-semibold">Descript:</span> La mejor herramienta de edición de video/podcast textual. Ahorro de 5 horas a la semana garantizado.</li>
+                        <li><span class="font-semibold">Jasper AI:</span> Para la creación de contenido de blog a escala. Su enfoque SEO es el mejor del mercado.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vista Contacto -->
+        <section id="contact-view" class="view-content hidden content-container bg-indigo-600 text-white p-8 md:p-12 rounded-2xl shadow-xl">
+             <div class="text-center">
+                <h1 class="text-4xl font-extrabold mb-4">¡No te quedes atrás!</h1>
+                <p class="text-xl mb-8 text-indigo-200">
+                    Suscríbete y recibe guías gratuitas, comparativas y los mejores *prompts* de IA cada semana directamente en tu bandeja de entrada.
+                </p>
+            </div>
+            <form class="max-w-xl mx-auto space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-indigo-200 mb-1">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu Nombre" class="w-full px-4 py-3 rounded-lg text-gray-900 border-none focus:ring-2 focus:ring-white">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-indigo-200 mb-1">Email</label>
+                    <input type="email" id="email" name="email" placeholder="tu.email@ejemplo.com" required class="w-full px-4 py-3 rounded-lg text-gray-900 border-none focus:ring-2 focus:ring-white">
+                </div>
+                <button type="submit" class="w-full px-4 py-3 text-lg font-bold text-indigo-800 bg-yellow-400 rounded-lg hover:bg-yellow-300 transition duration-300 shadow-md">
+                    Suscribirme y Recibir las Guías Gratis
+                </button>
+            </form>
+            <div class="mt-6 text-center text-sm text-indigo-300">
+                <p>Prometemos no enviar spam. Solo contenido de valor sobre IA.</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-12">
+        <div class="content-container py-8 text-sm">
+            <div class="flex flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-4 mb-4">
+                <div class="flex space-x-4 mb-4 md:mb-0">
+                    <a href="#" class="text-gray-400 hover:accent-color transition">X/Twitter</a>
+                    <a href="#" class="text-gray-400 hover:accent-color transition">YouTube</a>
+                    <a href="#" class="text-gray-400 hover:accent-color transition">LinkedIn</a>
+                </div>
+                <div class="text-xl font-black">
+                    <span class="accent-color">IA</span><span class="text-white">Creativa</span>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between text-gray-400">
+                <p>&copy; 2025 IA Creativa. Todos los derechos reservados.</p>
+                <div class="space-x-4 mt-2 sm:mt-0">
+                    <a href="#" class="hover:accent-color">Aviso Legal</a>
+                    <a href="#" class="hover:accent-color">Política de Privacidad</a>
+                    <a href="#" class="hover:accent-color">Política de Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- NUEVO: CDN de Marked.js para leer Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Tus scripts (Data y App) -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
