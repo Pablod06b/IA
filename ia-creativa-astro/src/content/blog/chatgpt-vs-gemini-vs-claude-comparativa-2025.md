@@ -1,15 +1,20 @@
 ---
-title: "ChatGPT vs Gemini vs Claude 3: La Batalla Definitiva por el Trono de la IA en 2025"
-description: "Ponemos a prueba a los 3 gigantes de la IA. Descubre si debes pagar por ChatGPT, Gemini o Claude según si eres programador, escritor o investigador. Análisis de precios y funciones."
-pubDate: 2025-01-13
-heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
-isFeatured: false
+title: "ChatGTP vs Gemini vs Claude 3: La Batalla Definitiva por el Trono de la
+  IA en 2025"
+description: >+
+  Ponemos a prueba a los 3 gigantes de la IA. Descubre si debes pagar por
+  ChatGPT, Gemini o Claude según si eres programador, escritor o investigador.
+  Análisis de precios y funciones.
+
+pubDate: 2025-12-04T01:22:00.000+01:00
+heroImage: https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80
+isFeatured: true
 isGuide: false
 ---
 
 # ChatGPT vs Gemini vs Claude 3: La Batalla Definitiva por el Trono de la IA en 2025
 
-![Comparativa logos ChatGPT vs Gemini vs Claude 3 inteligencia artificial 2025](https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80)
+
 
 En 2025, la pregunta ya no es "¿Qué IA debería usar?", sino "¿Qué IA se adapta mejor a mi flujo de trabajo?".
 

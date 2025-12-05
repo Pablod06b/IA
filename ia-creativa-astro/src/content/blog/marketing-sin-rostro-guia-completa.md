@@ -9,7 +9,7 @@ isGuide: true
 
 # Marketing Sin Rostro: La Guía Definitiva para Construir un Imperio Digital Anónimo en 2025
 
-![Estéticas de marketing sin rostro dark luxury y clean girl para negocios digitales](https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80)
+
 
 ¿Alguna vez has soñado con tener un negocio online rentable pero te paraliza la idea de grabarte bailando en TikTok o exponer tu vida privada en Instagram? No estás solo. En 2025, la tendencia más explosiva en la economía de los creadores no tiene cara. Se llama **marketing sin rostro** (o *Faceless Marketing*) y está redefiniendo las reglas del juego.
 

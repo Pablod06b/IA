@@ -12,7 +12,7 @@ interface Props {
 const { 
 	title, 
 	description = "Descubre las mejores herramientas de IA para creadores de contenido.",
-	image = "https://placehold.co/1200x630/6366f1/ffffff?text=IA+CREATIVA"
+	image = "/imagenes/Gemini_Generated_Image_u1rdj9u1rdj9u1rd.png"
 } = Astro.props;
 ---
 
@@ -22,7 +22,7 @@ const {
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/x-icon" href="https://placehold.co/16x16/6366f1/ffffff?text=AI" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		
 		<!-- Open Graph / Facebook -->
@@ -38,6 +38,19 @@ const {
 		<meta property="twitter:image" content={image} />
 
 		<title>{title}</title>
+
+		<!-- Google Analytics -->
+		{import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID && (
+			<>
+				<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID}`}></script>
+				<script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID }}>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', gaId);
+				</script>
+			</>
+		)}
 	</head>
 	<body class="flex flex-col min-h-screen">
 		<Header />

@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/imagenes"
+public_folder: "/imagenes"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "text"}
+      - {label: "Fecha de Publicación", name: "pubDate", widget: "datetime"}
+      - {label: "Imagen Principal", name: "heroImage", widget: "image"}
+      - {label: "Destacado", name: "isFeatured", widget: "boolean", default: false}
+      - {label: "Es Guía", name: "isGuide", widget: "boolean", default: false}
+      - {label: "Cuerpo", name: "body", widget: "markdown"}
